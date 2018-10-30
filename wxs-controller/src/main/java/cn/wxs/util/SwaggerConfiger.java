@@ -46,7 +46,7 @@ public class SwaggerConfiger {
     private ApiInfo apiInfo()
     {
         ApiInfo apiInfo = new ApiInfo(
-                "第一个SSM整合",
+                "第一个SSM整合heheda",
                 "我的应用API描述",
                 "我的应用API服务条款",
                 "981205912@qq.com",
