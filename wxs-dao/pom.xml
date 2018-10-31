@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>cn.wxs.dao</artifactId>
+    <artifactId>wxs.dao</artifactId>
 
 
 </project>
