@@ -13,6 +13,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/wxs-model/pom.xml" />
+        <option value="$PROJECT_DIR$/wxs-service/pom.xml" />
       </set>
     </option>
   </component>
