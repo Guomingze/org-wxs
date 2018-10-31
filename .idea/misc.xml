@@ -11,6 +11,9 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/wxs-entrance/pom.xml" />
+        <option value="$PROJECT_DIR$/wxs-dao/pom.xml" />
+        <option value="$PROJECT_DIR$/wxs-controller/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
