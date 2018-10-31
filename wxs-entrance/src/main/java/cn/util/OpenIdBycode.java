@@ -9,9 +9,11 @@ import org.apache.http.conn.ssl.AllowAllHostnameVerifier;
 import org.apache.http.conn.ssl.SSLSocketFactory;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.util.EntityUtils;
+import org.springframework.stereotype.Service;
 
 import java.io.IOException;
 
+@Service
 public class OpenIdBycode {
 
     public String getOpenid(String code) {
