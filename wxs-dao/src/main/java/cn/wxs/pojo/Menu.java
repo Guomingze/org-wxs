@@ -11,7 +11,15 @@ public class Menu {
   private String m1;
   private String m2;
   private String m3;
+  private Integer frequency;
 
+  public Integer getFrequency() {
+    return this.frequency;
+  }
+
+  public void setFrequency(Integer frequency) {
+    this.frequency = frequency;
+  }
 
   public Integer getMid() {
     return mid;
