@@ -1,90 +1,73 @@
 package cn.wxs.pojo;
 
 
+
 public class Couponsandusers {
 
-    private Integer cauid;
-    private Integer caucid;
-    private Integer cauuid;
-    private User user;
-    private Coupons coupons;
+  private Integer cauid;
+  private Integer caucid;
+  private Integer cauuid;
 
-    public User getUser() {
-        return this.user;
-    }
+  public Integer getCauid() {
+    return cauid;
+  }
 
-    public Coupons getCoupons() {
-        return this.coupons;
-    }
+  public void setCauid(Integer cauid) {
+    this.cauid = cauid;
+  }
 
-    public void setCoupons(Coupons coupons) {
-        this.coupons = coupons;
-    }
+  public Integer getCaucid() {
+    return caucid;
+  }
 
-    public void setUser(User user) {
-        this.user = user;
-    }
+  public void setCaucid(Integer caucid) {
+    this.caucid = caucid;
+  }
 
-    public Integer getCauid() {
-        return cauid;
-    }
+  public Integer getCauuid() {
+    return cauuid;
+  }
 
-    public void setCauid(Integer cauid) {
-        this.cauid = cauid;
-    }
+  public void setCauuid(Integer cauuid) {
+    this.cauuid = cauuid;
+  }
 
-    public Integer getCaucid() {
-        return caucid;
-    }
+  public Integer getCautype() {
+    return cautype;
+  }
 
-    public void setCaucid(Integer caucid) {
-        this.caucid = caucid;
-    }
+  public void setCautype(Integer cautype) {
+    this.cautype = cautype;
+  }
 
-    public Integer getCauuid() {
-        return cauuid;
-    }
+  public String getCau1() {
+    return cau1;
+  }
 
-    public void setCauuid(Integer cauuid) {
-        this.cauuid = cauuid;
-    }
+  public void setCau1(String cau1) {
+    this.cau1 = cau1;
+  }
 
-    public Integer getCautype() {
-        return cautype;
-    }
+  public String getCau2() {
+    return cau2;
+  }
 
-    public void setCautype(Integer cautype) {
-        this.cautype = cautype;
-    }
+  public void setCau2(String cau2) {
+    this.cau2 = cau2;
+  }
 
-    public String getCau1() {
-        return cau1;
-    }
+  public String getCau3() {
+    return cau3;
+  }
 
-    public void setCau1(String cau1) {
-        this.cau1 = cau1;
-    }
+  public void setCau3(String cau3) {
+    this.cau3 = cau3;
+  }
 
-    public String getCau2() {
-        return cau2;
-    }
-
-    public void setCau2(String cau2) {
-        this.cau2 = cau2;
-    }
-
-    public String getCau3() {
-        return cau3;
-    }
-
-    public void setCau3(String cau3) {
-        this.cau3 = cau3;
-    }
-
-    private Integer cautype;
-    private String cau1;
-    private String cau2;
-    private String cau3;
+  private Integer cautype;
+  private String cau1;
+  private String cau2;
+  private String cau3;
 
 
 }
