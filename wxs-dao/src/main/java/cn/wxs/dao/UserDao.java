@@ -1,6 +1,5 @@
 package cn.wxs.dao;
 
-import cn.wxs.pojo.Coupons;
 import cn.wxs.pojo.User;
 
 import java.util.List;
