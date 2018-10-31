@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="wxs-controller:war">
+    <output-path>$PROJECT_DIR$/wxs-controller/target</output-path>
+    <root id="archive" name="wxs-controller.war">
+      <element id="artifact" artifact-name="wxs-controller:war exploded" />
+    </root>
+  </artifact>
+</component>
