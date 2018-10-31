@@ -6,15 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cn.wxs.dao" />
         <module name="wxs-controller" />
-        <module name="wxs-entrance" />
         <module name="wxs-service" />
-        <module name="wxs.dao" />
+        <module name="wxs.entrance" />
         <module name="wxs.service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="wxs-entrance" target="1.5" />
       <module name="wxs-model" target="1.5" />
+      <module name="wxs.dao" target="1.5" />
+      <module name="wxs.service" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
