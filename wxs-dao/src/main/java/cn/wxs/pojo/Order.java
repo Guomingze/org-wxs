@@ -4,41 +4,40 @@ package cn.wxs.pojo;
 public class Order {
 
   private Integer oid;
-  private Integer ouser;
-  private Integer omenu;
+  private User ouser;
+  private Menu omenu;
   private double omoney;
   private Integer otype;
   private String o1;
   private String o2;
   private String o3;
 
-
   public Integer getOid() {
-    return oid;
+    return this.oid;
   }
 
   public void setOid(Integer oid) {
     this.oid = oid;
   }
 
-  public Integer getOuser() {
-    return ouser;
+  public User getOuser() {
+    return this.ouser;
   }
 
-  public void setOuser(Integer ouser) {
+  public void setOuser(User ouser) {
     this.ouser = ouser;
   }
 
-  public Integer getOmenu() {
-    return omenu;
+  public Menu getOmenu() {
+    return this.omenu;
   }
 
-  public void setOmenu(Integer omenu) {
+  public void setOmenu(Menu omenu) {
     this.omenu = omenu;
   }
 
   public double getOmoney() {
-    return omoney;
+    return this.omoney;
   }
 
   public void setOmoney(double omoney) {
@@ -46,7 +45,7 @@ public class Order {
   }
 
   public Integer getOtype() {
-    return otype;
+    return this.otype;
   }
 
   public void setOtype(Integer otype) {
@@ -54,7 +53,7 @@ public class Order {
   }
 
   public String getO1() {
-    return o1;
+    return this.o1;
   }
 
   public void setO1(String o1) {
@@ -62,7 +61,7 @@ public class Order {
   }
 
   public String getO2() {
-    return o2;
+    return this.o2;
   }
 
   public void setO2(String o2) {
@@ -70,7 +69,7 @@ public class Order {
   }
 
   public String getO3() {
-    return o3;
+    return this.o3;
   }
 
   public void setO3(String o3) {
