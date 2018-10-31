@@ -11,6 +11,7 @@
     <modules>
         <module>wxs-controller</module>
         <module>wxs-dao</module>
+        <module>wxs-entrance</module>
     </modules>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->

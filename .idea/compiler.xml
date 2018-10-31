@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="wxs-controller" />
+        <module name="wxs-entrance" />
         <module name="wxs-service" />
         <module name="wxs.dao" />
         <module name="wxs.service" />
