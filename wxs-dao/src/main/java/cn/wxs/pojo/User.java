@@ -1,6 +1,8 @@
 package cn.wxs.pojo;
 
 
+import java.util.List;
+
 public class User {
 
   private Integer uid;
@@ -11,7 +13,6 @@ public class User {
   private String u1;
   private String u2;
   private String u3;
-
 
   public Integer getUid() {
     return uid;
