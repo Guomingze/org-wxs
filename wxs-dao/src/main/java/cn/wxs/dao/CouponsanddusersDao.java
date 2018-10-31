@@ -1,5 +1,31 @@
 package cn.wxs.dao;
 
-public interface CouponsanddusersDao {
+import cn.wxs.pojo.Couponsandusers;
 
+import java.util.List;
+
+public interface CouponsanddusersDao {
+    /**
+     * 查找此用户拥有的优惠券
+     *
+     * @param cd 优惠券信息对象
+     * @return 优惠券信息集合
+     */
+    List<CouponsanddusersDao> selCouponsanddusersDao(Couponsandusers cd);
+
+    /**
+     * 修优惠券状态信息
+     *
+     * @param cd 优惠券信息对象
+     * @return 受影响行数
+     */
+    int updataCouponsanddusersDao(Couponsandusers cd);
+
+    /**
+     * 新增一个优惠券信息
+     *
+     * @param cd 优惠券关系对象
+     * @return 首影响行数
+     */
+    int insertCouponsanddusersDao(Couponsandusers cd);
 }
